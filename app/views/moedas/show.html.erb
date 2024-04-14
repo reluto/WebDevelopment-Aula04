@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @moeda %>
+
+<div>
+  <%= link_to "Edit this moeda", edit_moeda_path(@moeda) %> |
+  <%= link_to "Back to moedas", moedas_path %>
+
+  <%= button_to "Destroy this moeda", @moeda, method: :delete %>
+</div>
